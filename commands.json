@@ -1,0 +1,10 @@
+[
+  {
+    "name": "help",
+    "file": "src/commands/help.js"
+  },
+  {
+    "name": "start",
+    "file": "src/commands/start.js"
+  }
+]

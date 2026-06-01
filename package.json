@@ -1,0 +1,23 @@
+{
+  "name": "cookmybots-telegram-bot",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "install:root": "bash -lc \"set -e; if [ -f package-lock.json ]; then npm ci; else npm install; fi\"",
+    "build": "npm run install:root && echo build",
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "grammy": "^1.20.0",
+    "mongodb": "^6.10.0",
+    "@grammyjs/runner": "^2.0.3",
+    "cheerio": "latest"
+  },
+  "devDependencies": {}
+}
